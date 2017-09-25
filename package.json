@@ -1,0 +1,21 @@
+{
+  "name": "dependency-injector",
+  "version": "1.0.0",
+  "description": "Dependency injection library [PoC]",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "babel-node ./src/demo.js",
+    "prepublish": "babel src -d dist"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Oliver Castillo <olivercs@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.0"
+  }
+}
